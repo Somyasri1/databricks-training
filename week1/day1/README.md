@@ -2,21 +2,21 @@
 
 ##  Overview
 
-This folder contains Day 1 SQL practice queries and table creation scripts for Databricks training.
+This directory contains the SQL practice work completed on Day 1 as part of Databricks training. It includes table creation scripts and a variety of SQL queries covering fundamental concepts.
 
 ---
 
-##  Files Included
+##  Repository Contents
 
-### 🔹 `SQL-tables`
+### 🔹 SQL Tables
 
-Contains:
+Includes:
 
-* Table creation queries
-* Primary keys and foreign keys
-* Sample data insertion queries
+* Table creation scripts
+* Definition of primary and foreign keys
+* Sample data insertion statements
 
-**Tables used:**
+**Tables Covered:**
 
 * Employee
 * Department
@@ -24,31 +24,31 @@ Contains:
 
 ---
 
-### 🔹 `SQL-queries`
+### 🔹 SQL Queries
 
-Contains SQL practice queries including:
+Includes practice queries based on:
 
 * SELECT statements
-* WHERE conditions
-* LIKE operator
-* Aggregate functions
-* GROUP BY
-* HAVING
-* ORDER BY
+* WHERE clause filtering
+* LIKE operator for pattern matching
+* Aggregate functions (COUNT, SUM, AVG, etc.)
+* GROUP BY and HAVING clauses
+* ORDER BY sorting
 * JOIN operations
 * Date functions
 
-**Total Queries Practiced:** **35**
+**Total Queries Practiced:** *35*
 
 ---
 
-## Topics Covered
+##  Key Concepts Covered
 
-* Basic SQL Queries
-* Filtering Data
-* Pattern Matching
-* Aggregate Functions
-* Grouping Data
-* Sorting Data
-* Joins
-* Date Functions
+* Fundamentals of SQL querying
+* Data filtering techniques
+* Pattern-based searches
+* Aggregation and grouping
+* Data sorting methods
+* Table joins and relationships
+* Working with date functions
+
+
