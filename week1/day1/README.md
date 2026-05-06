@@ -1,12 +1,12 @@
-# 📘 Databricks SQL Training — Day 1
+#  Databricks SQL Training — Day 1
 
-## 📌 Overview
+##  Overview
 
 This folder contains Day 1 SQL practice queries and table creation scripts for Databricks training.
 
 ---
 
-## 📂 Files Included
+##  Files Included
 
 ### 🔹 `SQL-tables`
 
@@ -42,7 +42,7 @@ Contains SQL practice queries including:
 
 ---
 
-## 📚 Topics Covered
+## Topics Covered
 
 * Basic SQL Queries
 * Filtering Data
