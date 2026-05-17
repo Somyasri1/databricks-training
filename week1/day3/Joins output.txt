@@ -2,7 +2,7 @@
 
 ## Schema (MySQL v5.7)
 
-```sql
+
 DROP TABLE IF EXISTS enrollments;
 DROP TABLE IF EXISTS courses;
 DROP TABLE IF EXISTS students;
@@ -74,7 +74,6 @@ INSERT INTO enrollments VALUES
 
 # Query #1
 
-```sql
 -- 1. Display all students and the courses they are enrolled in.
 -- Include students who are not enrolled in any course.
 
@@ -100,7 +99,6 @@ ON e.course_id = c.course_id;
 
 # Query #2
 
-```sql
 -- 2. Find all courses that currently have no students enrolled.
 
 SELECT c.course_name
@@ -119,7 +117,6 @@ WHERE e.course_id IS NULL;
 
 # Query #3
 
-```sql
 -- 3. Display all instructors and the courses they teach,
 -- including instructors who are not assigned to any course.
 
@@ -140,7 +137,6 @@ ON i.instructor_id = c.instructor_id;
 
 # Query #4
 
-```sql
 -- 4. Find all courses that do not have an instructor assigned.
 
 SELECT course_name
@@ -157,7 +153,6 @@ WHERE instructor_id IS NULL;
 
 # Query #5
 
-```sql
 -- 5. Display all students and enrollment information using RIGHT JOIN.
 
 SELECT s.student_name,
@@ -181,7 +176,6 @@ ON s.student_id = e.student_id;
 
 # Query #6
 
-```sql
 -- 6. Find students who are not enrolled in any course.
 
 SELECT s.student_name
@@ -200,7 +194,6 @@ WHERE e.student_id IS NULL;
 
 # Query #7
 
-```sql
 -- 7. FULL OUTER JOIN simulation using UNION
 
 SELECT s.student_name,
@@ -234,7 +227,6 @@ ON s.student_id = e.student_id;
 
 # Query #8
 
-```sql
 -- 8. Find all courses that never appeared in enrollments table.
 
 SELECT c.course_name
@@ -253,7 +245,6 @@ WHERE e.course_id IS NULL;
 
 # Query #9
 
-```sql
 -- 9. FULL OUTER JOIN simulation for instructors and courses
 
 SELECT i.instructor_name,
@@ -284,7 +275,6 @@ ON i.instructor_id = c.instructor_id;
 
 # Query #10
 
-```sql
 -- 10. Report showing student name, course name, instructor name
 
 SELECT s.student_name,
@@ -314,7 +304,6 @@ ON c.instructor_id = i.instructor_id;
 
 # BONUS CHALLENGE
 
-```sql
 -- List every student and every course
 
 SELECT s.student_name,
