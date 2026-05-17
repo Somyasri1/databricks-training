@@ -2,61 +2,59 @@
 
 ## 📌 Overview
 
-On Day 3, I continued improving my SQL skills by practicing different types of queries using multiple datasets. The main focus was on understanding SQL joins, working with related tables, and learning advanced analytical concepts using window functions.
+On Day 3, I focused on improving my SQL knowledge by practicing different types of queries using multiple datasets. The practice mainly covered SQL joins, table relationships, and analytical queries using window functions. This session helped me strengthen both basic and advanced SQL concepts through hands-on query writing.
 
 ## 🛠️ Tools Used
 
-* DB Fiddle for executing and testing SQL queries
-* GitHub for maintaining and organizing practice files
+* DB Fiddle for writing and testing SQL queries
+* GitHub for maintaining and organizing practice work
 
 ## 📚 Topics Covered
 
-* SELECT and WHERE clauses
+* SELECT, WHERE, ORDER BY, and DISTINCT
 * GROUP BY and HAVING clauses
-* DISTINCT keyword
+* Aggregate functions
 * Comparison and logical operators
 * IN, NOT IN, BETWEEN, and LIKE operators
-* SQL JOIN operations
-* LEFT JOIN, RIGHT JOIN, and CROSS JOIN
-* FULL OUTER JOIN concepts
+* LEFT JOIN, RIGHT JOIN, CROSS JOIN, and FULL OUTER JOIN concepts
 * Window Functions
 * ROW_NUMBER(), RANK(), and DENSE_RANK()
 * LAG() and LEAD() functions
-* PARTITION BY and running totals
+* PARTITION BY and cumulative calculations
 
 ## 🗂️ Work Done
 
-### 1. Employees Table SQL Practice
+### 1. Employees Table Practice
 
-* Created an Employees table and inserted sample employee records
+* Created an Employees table with sample employee records
 * Practiced filtering, sorting, grouping, and aggregate queries
-* Worked with conditions, operators, and SQL functions
+* Used SQL operators and conditions to retrieve required data
 
 ### 2. SQL Joins Assignment
 
 * Worked with Students, Courses, Instructors, and Enrollments tables
-* Practiced LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN concepts, and CROSS JOIN
-* Learned how foreign keys connect multiple tables together
+* Practiced different join operations and table relationships
+* Understood how foreign keys connect related tables
 
 ### 3. Window Functions Assignment
 
-* Practiced analytical functions like ROW_NUMBER(), RANK(), and DENSE_RANK()
+* Practiced ranking functions like ROW_NUMBER(), RANK(), and DENSE_RANK()
 * Calculated running totals and cumulative sales values
-* Used LAG() and LEAD() for previous-row and next-row analysis
-* Learned the importance of database compatibility for advanced SQL features, especially PostgreSQL support for window functions
+* Used LAG() and LEAD() for row-by-row comparison analysis
+* Learned about PostgreSQL support for advanced SQL analytical functions
 
-## 📊 What I Learned Today
+## 📊 Key Learnings
 
-* How different SQL clauses work together in real-world queries
-* The difference between joins and normal filtering queries
-* How window functions analyze data without grouping rows
-* Importance of choosing the correct SQL engine (MySQL vs PostgreSQL)
-* Better understanding of analytical SQL concepts and query structuring
+* Improved understanding of SQL query structuring
+* Learned how joins combine data from multiple tables
+* Understood the difference between grouping and window functions
+* Gained knowledge about analytical SQL operations
+* Learned the importance of choosing the correct database engine for advanced functions
 
 ## 📁 Files Included
 
-* `queries.sql` → Contains all SQL queries practiced today
-* `output.txt` → Contains query outputs and observations
+* `queries.sql` → Contains all SQL queries practiced
+* `output.txt` → Contains outputs and observations
 
 ## 🔗 SQL Practice Links
 
@@ -74,4 +72,4 @@ On Day 3, I continued improving my SQL skills by practicing different types of q
 
 ## 🚀 Conclusion
 
-Day 3 provided hands-on practice with both intermediate and advanced SQL concepts. It improved my confidence in writing structured SQL queries, understanding relationships between tables, and working with analytical functions using window operations.
+Day 3 gave me practical experience with SQL joins and analytical functions. It helped me improve my confidence in writing structured queries, understanding relationships between tables, and working with advanced SQL concepts using window functions.
